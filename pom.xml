@@ -29,4 +29,10 @@
   </snapshotRepository>
 </distributionManagement>
   
+   <scm>
+   	<url>https://github.com/katyaap/CounterWebApp.git</url>
+   </scm>
+   <ciManagement>
+   	<system>http://ciserver1.cloudapp.net:8080/</system>
+   </ciManagement>
 </project>
