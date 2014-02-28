@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>HTML5 and CSS3 Fundamentals</title>
-  <link rel="Stylesheet" type="text/css" href="styles.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
 </head>
 <body>
 
 <header>
 
-    <hgroup>
+  <hgroup>
     <h1>Channel9</h1>
     <h2>HTML5 and CSS3 Fundamentals</h2>
-    </hgroup>
+  </hgroup>
 
   <nav>
     <ul>
@@ -32,6 +32,7 @@
 
 <h2>Introduction</h2>
 
+<h3><a href="http://l-00156019786:8080/demos/demo_multiparty.html">WebRTC demo</a></h3>
 <p>In this article I'll describe the World Wide Web from a high level perspective, focusing on how a web page is request and delivered from a web server to a web browser.  Then, I want to talk about web browsers, how they interpret the HTML you write, differences between browsers, what are standards and to paraphrase the old joke "if Standards are so great, why are there so many of them?"  Finally, I'll talk about the thought process behind HTML5 and CSS3, why they were introduced and what they hope to achieve.</p>
 
 <h2>A Brief Technical Overview of the World Wide Web</h2>
@@ -61,7 +62,7 @@
 
 <p>The request that users type into web browsers originally looked something like this:<br>
 <br>
-http://l-00156019786:8080/demos/demo_multiparty.html</p>
+http://157.123.23.44/index.htm</p>
 
 <p>Why the series of numbers?  Each computer on this network was assigned an address, called an Internet Protocol Address, or IP Address.  This was assigned through a lower-level protocol called Transmission Control Protocol / Internet Protocol, or rather, TCP/IP.  It was the foundational technology that allowed requests to be routed to the appropriate server that contained a given resource, or rather, web page.  However, because the IP address for a computer would change occasionally for a given computer or institution, they devised a system called the Domain Name System, or rather, the DNS, to turn a friendly name like:<br>
 <br>mit.edu<br><br>
@@ -160,7 +161,7 @@ http://l-00156019786:8080/demos/demo_multiparty.html</p>
 
 <footer>
 
-<small>Copyright &copy; 2012-2014 Bob Tabor</small>
+<small>Copyright © 2012-2014 Bob Tabor</small>
 
   <nav>
     <ul>
